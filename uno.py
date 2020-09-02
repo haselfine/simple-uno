@@ -3,7 +3,7 @@ import random
 import sys
 import time
 
-#since user turn is determined by % 2, this user always starts first
+#since user turn is determined by % 2, the user always starts first
 turn_num = 2 
 
 @dataclass
