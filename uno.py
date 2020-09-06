@@ -63,7 +63,7 @@ def create_deck():
 def first_draw(): #determine first cards in hand
     global deck
     hand = []
-    for n in range(1): #only one card to start, just to simplify testing
+    for n in range(3): #only three cards to start, just to simplify testing
         hand.append(deck[0])
         del deck[0] #remove card from top of deck
     return hand
